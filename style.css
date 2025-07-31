@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 10px;
+}
+
+body{
+  background:#eee;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover{
+  width: 100%;
+  background: #005490;
+  color: #fff;
+  border-radius: .5rem;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1{
+  font-size: 8rem;
+  text-align: center;
+}
+
+.counter{
+  display: inline-block;
+  font-size: 7rem;
+  border: 1px solid;
+  padding: .3rem 2rem;
+  margin: 2rem 0;
+}
+
+.signs{
+  width: 100%;
+  margin: 0rem 0 4rem 0;
+}
+
+.add, .minus, .reset{
+  padding: 1rem 1.5rem;
+  font-size: 2rem;
+  transition: .5s;
+  border-radius: .2rem;
+}
+
+.add{
+  background: #005500;
+}
+
+.minus{
+  background: #990000;
+}
+
+.reset{
+  background: #fff;
+  color:#000;
+}
+
+.add{
+  margin: 0 0 0 10rem;
+}
+
+.minus  {
+  margin: 0 10rem 0 0;
+}
